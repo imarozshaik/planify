@@ -1,0 +1,147 @@
+.cal {
+  display: flex;
+  background: linear-gradient(to right bottom, rgb(152, 224, 243), #285f8f);
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+}
+
+.calendar-page {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  /* background-color: #173b5b; */
+  
+}
+ 
+.notes-container {
+  flex: 3;
+  padding: 20px;
+  border-right: 1px solid #ffffff;
+  box-sizing: border-box;
+  background-color: #a7caef;
+  max-width: 1200px;
+  max-height: 500px;
+  margin-top: 20px;
+}
+
+.notes-container h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.selected-note {
+  margin-top: 10px;
+}
+
+.selected-note p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.calendar-container {
+  flex: 7;
+  width: 100%;
+  max-width: 100%;
+}
+
+.calendar {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #d4caca;
+  border: 1px solid #e8dfdf;
+}
+
+.calendar-header {
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #007bff;
+  color: #fff;
+}
+
+.calendar-day {
+  text-align: center;
+  padding: 10px;
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+.calendar-cell {
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #faeaea;
+}
+
+.calendar-cell.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.date-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date {
+  font-weight: bold;
+  margin-bottom: 5px;
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.date.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.note-container {
+  margin-top: 10px;
+}
+
+.note-textarea {
+  width: calc(100% - 20px);
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.nav-button {
+  padding: 8px 12px;
+  background-color: #a7caef;
+  color: #030303;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.nav-button.left {
+  float: left;
+  margin-right: 10px;
+}
+
+.nav-button.right {
+  float: right;
+  margin-left: 10px;
+}
+
+.nav-button:hover {
+  background-color: #0056b3;
+}

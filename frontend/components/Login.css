@@ -1,0 +1,39 @@
+.form-container1 {
+  width: 800px;
+  height: 400px;
+  text-align: center;
+  background-color: rgba(228, 233, 242, 0.463);
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(32, 32, 32, 0.1);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.login {
+  min-height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #3a3a3a, #4c3e4e, #644869, #5d6c85, #2d7c83, #009797);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.monofett-regular1 {
+  font-family: "Monofett", monospace;
+  font-weight: 250;
+  font-style: normal;
+  font-size: 3rem;
+  color: white
+}
+
+.form-label1 {
+  font-size: 1.2rem; 
+  font-weight: bold; 
+  color: #ffffff; 
+}
+

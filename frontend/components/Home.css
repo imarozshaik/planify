@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+
+.monofett-regular {
+  font-family: "Monofett", monospace;
+  font-weight: 250;
+  font-style: normal;
+  font-size: 5rem;
+}
+
+.home {
+  min-height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #3a3a3a, #4c3e4e, #644869, #5d6c85, #2d7c83, #009797);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.form-container {
+  width: 800px;
+  height: 350px;
+  text-align: center;
+  background-color: rgba(228, 233, 242, 0.463);
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.centered {
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between; 
+}
+
+.page-title {
+  font-size: 6rem;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.btnLogin, .btnRegister {
+  width: 145px; 
+  padding: 15px 20px; 
+  font-size: 1.2rem;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.link-style {
+  color: inherit;
+  text-decoration: none; 
+}
+
+.link-style:hover {
+  text-decoration: none; 
+}
